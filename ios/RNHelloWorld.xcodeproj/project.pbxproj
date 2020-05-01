@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNHelloWorldTests.m */; };
-		2F14039E143302EFEA7CB365 /* libPods-RNHelloWorld-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE37BC058C3F24F2AE18D0B6 /* libPods-RNHelloWorld-tvOSTests.a */; };
-		541B049B9185023C2DC7A816 /* libPods-RNHelloWorld-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44173961995A8B8FA555D435 /* libPods-RNHelloWorld-tvOS.a */; };
-		8E0DDBC0D25BEEC9C9E344CC /* libPods-RNHelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 142F0DEDEC1B964F47C02F58 /* libPods-RNHelloWorld.a */; };
-		CD36D9EDC5B76C1FB5B9A69F /* libPods-RNHelloWorld-RNHelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA54730D72DBCCF07A530F /* libPods-RNHelloWorld-RNHelloWorldTests.a */; };
+		3FD5AD6C003F1F40D56F6B9D /* libPods-RNHelloWorld-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8BDC05FBB6C165F5DDDC54 /* libPods-RNHelloWorld-tvOSTests.a */; };
+		5CA6F1E77ED1E2A976F4ABC0 /* libPods-RNHelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6A07A283F9D848F37979BE /* libPods-RNHelloWorld.a */; };
+		97D70599BBD4F566AAE2CD13 /* libPods-RNHelloWorld-RNHelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B600530EDF7E0324FE7C61 /* libPods-RNHelloWorld-RNHelloWorldTests.a */; };
+		C1B9D09861D30AE7F566C241 /* libPods-RNHelloWorld-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A679D22CECFE29F190541C69 /* libPods-RNHelloWorld-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,6 @@
 		00E356EE1AD99517003FC87E /* RNHelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNHelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNHelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNHelloWorldTests.m; sourceTree = "<group>"; };
-		0B96B136AFCDDED58470889B /* Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-RNHelloWorldTests/Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig"; sourceTree = "<group>"; };
-		12BCFF644B413F721EE4D177 /* Pods-RNHelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld.debug.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld/Pods-RNHelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNHelloWorld/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNHelloWorld/AppDelegate.m; sourceTree = "<group>"; };
@@ -53,21 +51,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNHelloWorld/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNHelloWorld/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNHelloWorld/main.m; sourceTree = "<group>"; };
-		13FE9215ECD22B3AC547E4B8 /* Pods-RNHelloWorld-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-tvOSTests/Pods-RNHelloWorld-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		142F0DEDEC1B964F47C02F58 /* libPods-RNHelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNHelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CDA54730D72DBCCF07A530F /* libPods-RNHelloWorld-RNHelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNHelloWorld-RNHelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE1F7D3CFFA913463195C3C /* Pods-RNHelloWorld-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-tvOS/Pods-RNHelloWorld-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* RNHelloWorld-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNHelloWorld-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNHelloWorld-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNHelloWorld-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DB395844F29AECAF7B5A2B3 /* Pods-RNHelloWorld-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-tvOS/Pods-RNHelloWorld-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		3BF2BD451A291C4E150E67B7 /* Pods-RNHelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld.release.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld/Pods-RNHelloWorld.release.xcconfig"; sourceTree = "<group>"; };
-		44173961995A8B8FA555D435 /* libPods-RNHelloWorld-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNHelloWorld-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0C2716C7E73C322F492D1CF /* Pods-RNHelloWorld-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-tvOS/Pods-RNHelloWorld-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2F8BDC05FBB6C165F5DDDC54 /* libPods-RNHelloWorld-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNHelloWorld-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E6DECDF00E5FE5E644540D /* Pods-RNHelloWorld-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-tvOSTests/Pods-RNHelloWorld-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		41B600530EDF7E0324FE7C61 /* libPods-RNHelloWorld-RNHelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNHelloWorld-RNHelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6A07A283F9D848F37979BE /* libPods-RNHelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNHelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		975CB806B2D3711E7EF01045 /* Pods-RNHelloWorld-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-tvOS/Pods-RNHelloWorld-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		99FF495AF99C6943177DC3F4 /* Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-RNHelloWorldTests/Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig"; sourceTree = "<group>"; };
+		A679D22CECFE29F190541C69 /* libPods-RNHelloWorld-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNHelloWorld-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88D47E8B29999DAFFA395B7 /* Pods-RNHelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld.debug.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld/Pods-RNHelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E02946245C2BAC00EBC2F9 /* RNHelloWorld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RNHelloWorld.entitlements; path = RNHelloWorld/RNHelloWorld.entitlements; sourceTree = "<group>"; };
-		CD94C769DA7ACA4C928583F9 /* Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-RNHelloWorldTests/Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CE37BC058C3F24F2AE18D0B6 /* libPods-RNHelloWorld-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNHelloWorld-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0686A8733894B6B69A78657 /* Pods-RNHelloWorld-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-tvOSTests/Pods-RNHelloWorld-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB2236B405074BBE5CE37D17 /* Pods-RNHelloWorld-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-tvOSTests/Pods-RNHelloWorld-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C19DF309286002D17127B51B /* Pods-RNHelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld.release.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld/Pods-RNHelloWorld.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F477A6024DE15D7000E46FF1 /* Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig"; path = "Target Support Files/Pods-RNHelloWorld-RNHelloWorldTests/Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD36D9EDC5B76C1FB5B9A69F /* libPods-RNHelloWorld-RNHelloWorldTests.a in Frameworks */,
+				97D70599BBD4F566AAE2CD13 /* libPods-RNHelloWorld-RNHelloWorldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E0DDBC0D25BEEC9C9E344CC /* libPods-RNHelloWorld.a in Frameworks */,
+				5CA6F1E77ED1E2A976F4ABC0 /* libPods-RNHelloWorld.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				541B049B9185023C2DC7A816 /* libPods-RNHelloWorld-tvOS.a in Frameworks */,
+				C1B9D09861D30AE7F566C241 /* libPods-RNHelloWorld-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F14039E143302EFEA7CB365 /* libPods-RNHelloWorld-tvOSTests.a in Frameworks */,
+				3FD5AD6C003F1F40D56F6B9D /* libPods-RNHelloWorld-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,10 +143,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				142F0DEDEC1B964F47C02F58 /* libPods-RNHelloWorld.a */,
-				2CDA54730D72DBCCF07A530F /* libPods-RNHelloWorld-RNHelloWorldTests.a */,
-				44173961995A8B8FA555D435 /* libPods-RNHelloWorld-tvOS.a */,
-				CE37BC058C3F24F2AE18D0B6 /* libPods-RNHelloWorld-tvOSTests.a */,
+				5D6A07A283F9D848F37979BE /* libPods-RNHelloWorld.a */,
+				41B600530EDF7E0324FE7C61 /* libPods-RNHelloWorld-RNHelloWorldTests.a */,
+				A679D22CECFE29F190541C69 /* libPods-RNHelloWorld-tvOS.a */,
+				2F8BDC05FBB6C165F5DDDC54 /* libPods-RNHelloWorld-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,14 +154,14 @@
 		7A3FBA73FC556A960D09FE3F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				12BCFF644B413F721EE4D177 /* Pods-RNHelloWorld.debug.xcconfig */,
-				3BF2BD451A291C4E150E67B7 /* Pods-RNHelloWorld.release.xcconfig */,
-				CD94C769DA7ACA4C928583F9 /* Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig */,
-				0B96B136AFCDDED58470889B /* Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig */,
-				B0C2716C7E73C322F492D1CF /* Pods-RNHelloWorld-tvOS.debug.xcconfig */,
-				2DB395844F29AECAF7B5A2B3 /* Pods-RNHelloWorld-tvOS.release.xcconfig */,
-				D0686A8733894B6B69A78657 /* Pods-RNHelloWorld-tvOSTests.debug.xcconfig */,
-				13FE9215ECD22B3AC547E4B8 /* Pods-RNHelloWorld-tvOSTests.release.xcconfig */,
+				A88D47E8B29999DAFFA395B7 /* Pods-RNHelloWorld.debug.xcconfig */,
+				C19DF309286002D17127B51B /* Pods-RNHelloWorld.release.xcconfig */,
+				F477A6024DE15D7000E46FF1 /* Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig */,
+				99FF495AF99C6943177DC3F4 /* Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig */,
+				1DE1F7D3CFFA913463195C3C /* Pods-RNHelloWorld-tvOS.debug.xcconfig */,
+				975CB806B2D3711E7EF01045 /* Pods-RNHelloWorld-tvOS.release.xcconfig */,
+				BB2236B405074BBE5CE37D17 /* Pods-RNHelloWorld-tvOSTests.debug.xcconfig */,
+				39E6DECDF00E5FE5E644540D /* Pods-RNHelloWorld-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNHelloWorldTests" */;
 			buildPhases = (
-				DD60C1712655872F4962634B /* [CP] Check Pods Manifest.lock */,
+				935FF6252078A8AD28F8B769 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -225,7 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNHelloWorld" */;
 			buildPhases = (
-				B425D53227C463D6E354EA4B /* [CP] Check Pods Manifest.lock */,
+				C88EB591C76B65F1A15020F3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -245,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNHelloWorld-tvOS" */;
 			buildPhases = (
-				C356CA000EEA5E5826D1ADB5 /* [CP] Check Pods Manifest.lock */,
+				65F2DC11C3FBD602F56CF80D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -265,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNHelloWorld-tvOSTests" */;
 			buildPhases = (
-				2531F4503CF7C11B52E1EC40 /* [CP] Check Pods Manifest.lock */,
+				22F6F68ABC0A36EA5D7BE9DD /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,7 +377,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2531F4503CF7C11B52E1EC40 /* [CP] Check Pods Manifest.lock */ = {
+		22F6F68ABC0A36EA5D7BE9DD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,29 +413,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		B425D53227C463D6E354EA4B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNHelloWorld-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C356CA000EEA5E5826D1ADB5 /* [CP] Check Pods Manifest.lock */ = {
+		65F2DC11C3FBD602F56CF80D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +435,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DD60C1712655872F4962634B /* [CP] Check Pods Manifest.lock */ = {
+		935FF6252078A8AD28F8B769 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,6 +451,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RNHelloWorld-RNHelloWorldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88EB591C76B65F1A15020F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNHelloWorld-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -584,7 +584,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD94C769DA7ACA4C928583F9 /* Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig */;
+			baseConfigurationReference = F477A6024DE15D7000E46FF1 /* Pods-RNHelloWorld-RNHelloWorldTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -607,7 +607,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B96B136AFCDDED58470889B /* Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig */;
+			baseConfigurationReference = 99FF495AF99C6943177DC3F4 /* Pods-RNHelloWorld-RNHelloWorldTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -627,7 +627,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12BCFF644B413F721EE4D177 /* Pods-RNHelloWorld.debug.xcconfig */;
+			baseConfigurationReference = A88D47E8B29999DAFFA395B7 /* Pods-RNHelloWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -646,7 +646,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.aerogear.react-native.push";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aerogear.helloworldpush.testing;
 				PRODUCT_NAME = RNHelloWorld;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -657,7 +657,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BF2BD451A291C4E150E67B7 /* Pods-RNHelloWorld.release.xcconfig */;
+			baseConfigurationReference = C19DF309286002D17127B51B /* Pods-RNHelloWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -671,7 +671,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.aerogear.react-native.push";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aerogear.helloworldpush.testing;
 				PRODUCT_NAME = RNHelloWorld;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -681,7 +681,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0C2716C7E73C322F492D1CF /* Pods-RNHelloWorld-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 1DE1F7D3CFFA913463195C3C /* Pods-RNHelloWorld-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -709,7 +709,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DB395844F29AECAF7B5A2B3 /* Pods-RNHelloWorld-tvOS.release.xcconfig */;
+			baseConfigurationReference = 975CB806B2D3711E7EF01045 /* Pods-RNHelloWorld-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -737,7 +737,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0686A8733894B6B69A78657 /* Pods-RNHelloWorld-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = BB2236B405074BBE5CE37D17 /* Pods-RNHelloWorld-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -764,7 +764,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13FE9215ECD22B3AC547E4B8 /* Pods-RNHelloWorld-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 39E6DECDF00E5FE5E644540D /* Pods-RNHelloWorld-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

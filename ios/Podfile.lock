@@ -1,8 +1,8 @@
 PODS:
   - aerogear-reactnative-push (1.0.0):
-    - AeroGearPush
+    - AeroGearPush-ObjC
     - React
-  - AeroGearPush (2.0.0)
+  - AeroGearPush-ObjC (2.0.1)
   - boost-for-react-native (1.63.0)
   - CocoaAsyncSocket (7.6.4)
   - CocoaLibEvent (1.0.0)
@@ -352,7 +352,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - AeroGearPush
+    - AeroGearPush-ObjC
     - boost-for-react-native
     - CocoaAsyncSocket
     - CocoaLibEvent
@@ -421,8 +421,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  aerogear-reactnative-push: 9702fd9e2bb42ffce1405638f05f373913ffd3ae
-  AeroGearPush: 42073042acabf5795fffaa844e046af2358ce841
+  aerogear-reactnative-push: d9095a4c52b78ab3d263f3a71a6b3d41e8bf1c62
+  AeroGearPush-ObjC: 9650de32bc6eb687066c1d235410102e925c776b
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   CocoaLibEvent: 2fab71b8bd46dd33ddb959f7928ec5909f838e3f

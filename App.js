@@ -36,13 +36,12 @@ ups.init(
     variantId: '545CCD04-56F5-466D-B510-E594FEFD166A',
     secret: '05277A01-15D6-4698-8D37-1D820DE35522',
   },
-  (err, res) => {
-    if (err) {
-      console.log('UPS JS Failed : ', err);
-    } else {
-      console.log('UPS JS Success!!! ', res);
-    }
+  () => {
+    console.log('UPS JS Success!!! ');
   },
+  (err) => {
+    console.log('UPS JS Failed : ', err);
+  }
 );
 
 const App: () => React$Node = () => {
