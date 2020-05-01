@@ -4,7 +4,6 @@
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
-#import <RNUnifiedPushEmitter.h>
 #import <RnUnifiedPush.h>
 
 #if DEBUG
@@ -64,7 +63,7 @@ static void InitializeFlipper(UIApplication *application) {
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
   NSLog(@"Remote notification received");
-  [RNUnifiedPushEmitter emitEvent:userInfo];
+  [RnUnifiedPush didReceiveRemoteNotification:userInfo];
 }
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {

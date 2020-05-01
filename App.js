@@ -44,6 +44,8 @@ ups.init(
   }
 );
 
+ups.registerMessageHandler(msg => console.log('JS APP => Message received!', msg));
+
 const App: () => React$Node = () => {
   return (
     <>
