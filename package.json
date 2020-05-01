@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "@aerogear/aerogear-reactnative-push": "link:../aerogear-reactnative-push"
+    "@aerogear/aerogear-reactnative-push": "../aerogear-reactnative-push"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

@@ -2,9 +2,8 @@
 # yarn lockfile v1
 
 
-"@aerogear/aerogear-reactnative-push@link:../aerogear-reactnative-push":
-  version "0.0.0"
-  uid ""
+"@aerogear/aerogear-reactnative-push@../aerogear-reactnative-push":
+  version "1.0.0"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"

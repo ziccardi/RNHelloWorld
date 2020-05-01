@@ -301,7 +301,7 @@ PODS:
     - Yoga (~> 1.14)
 
 DEPENDENCIES:
-  - aerogear-reactnative-push (from `../../aerogear-reactnative-push`)
+  - "aerogear-reactnative-push (from `../node_modules/@aerogear/aerogear-reactnative-push`)"
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
@@ -368,7 +368,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   aerogear-reactnative-push:
-    :path: "../../aerogear-reactnative-push"
+    :path: "../node_modules/@aerogear/aerogear-reactnative-push"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   FBLazyVector:

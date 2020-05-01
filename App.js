@@ -24,6 +24,27 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import RNUnifiedPush from '@aerogear/aerogear-reactnative-push';
+
+const ups = new RNUnifiedPush();
+
+// const RNUnifiedPush = NativeModules.RNUnifiedPush;
+
+ups.init(
+  {
+    url: 'http://192.168.178.21:9999',
+    variantId: '545CCD04-56F5-466D-B510-E594FEFD166A',
+    secret: '05277A01-15D6-4698-8D37-1D820DE35522',
+  },
+  (err, res) => {
+    if (err) {
+      console.log('UPS JS Failed : ', err);
+    } else {
+      console.log('UPS JS Success!!! ', res);
+    }
+  },
+);
+
 const App: () => React$Node = () => {
   return (
     <>
